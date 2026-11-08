@@ -1,0 +1,17 @@
+{
+  "id": "dms-kosd",
+  "name": "DMS Keyboard OSD",
+  "description": "Native Material You keyboard layout OSD plugin for DankMaterialShell (supports Niri & Hyprland via XKB)",
+  "version": "0.5.0",
+  "author": "Dymkut",
+  "license": "AGPL-3.0-only",
+  "type": "daemon",
+  "capabilities": ["daemon"],
+  "component": "./DMSKosdPlugin.qml",
+  "settings": "./Settings.qml",
+  "icon": "keyboard",
+  "permissions": [
+    "settings_read",
+    "settings_write"
+  ]
+}
